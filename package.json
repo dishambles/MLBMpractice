@@ -1,0 +1,15 @@
+{
+  "name": "greenleaf-server", // Name of your project
+  "version": "1.0.0", // Version of your project
+  "description": "Server for Greenleaf Organics signup and login", // Description of your project
+  "main": "server.js", // Entry point of your application
+  "dependencies": {
+    "body-parser": "^1.20.2", // Middleware to parse request bodies
+    "express": "^4.18.2" // Minimal and flexible Node.js web application framework
+  },
+  "scripts": {
+    "start": "node server.js" // Script to start the server
+  },
+  "author": "Your Name", // Your name or organization
+  "license": "ISC" // License type (e.g., MIT, ISC, GPL-3.0)
+}
